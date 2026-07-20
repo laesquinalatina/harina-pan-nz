@@ -1,0 +1,23 @@
+HARINA PAN NZ — deploy to GitHub -> Netlify (from your phone)
+
+This folder = your whole website: index.html + all the photos, side by side.
+Keep them together; index.html looks for the photos next to it.
+
+1) GITHUB — put the files online
+   - Go to github.com, sign in (make a free account if needed).
+   - Tap + (top right) -> New repository. Name it e.g. harina-pan-nz.
+     Set it Public. Create.
+   - On the new repo: "Add file" -> "Upload files".
+   - Select ALL files in this folder (index.html + every photo).
+   - Scroll down, tap "Commit changes".
+
+2) NETLIFY — make it live
+   - Go to netlify.com, sign in with your GitHub account.
+   - "Add new site" -> "Import an existing project" -> GitHub.
+   - Pick the harina-pan-nz repo.
+   - Leave build command EMPTY. Publish directory: leave as is ( / ).
+   - Deploy. In under a minute you get a live web address.
+
+3) LATER, to change something (e.g. a phone number)
+   - On GitHub open index.html -> pencil icon -> edit -> Commit.
+   - Netlify updates the live site automatically. No computer, no Claude.
